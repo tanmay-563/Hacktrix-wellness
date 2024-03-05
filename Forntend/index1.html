@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well-Nest</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+    <link rel="stylesheet" href="style1.css">
+    <link rel="shortcut icon" href="flavicon_icon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="contanier">
+        <!--main header-->
+        <header class="main-header">
+            <!--logo holder-->
+            <div class="logo-holder">
+                <a href="#">
+                    <img src="logo4.png" alt="logo">
+                </a>
+            </div>
+            <div class="search-holder">
+                <form action="" method="get">
+                    <input type="search" name="s" placeholder="search for..">
+                    <button type="submit">search</button>
+                </form>
+            </div>
+        </header>
+        <!--navigation bar-->
+        <nav class="main-menu">
+            <ul>
+                <li class="main-holder"><a href="index1.html">Home</a></li>
+                <li class="main-holder"><a href="#">Menstrual cycle</a></li>
+                <li class="main-holder"><a href="#">Sleep cycle</a></li>
+                <li class="main-holder"><a href="#">Plans</a></li>
+        </nav>
+        <section class="banner-slider">
+            <ul id="adaptive">
+                <li><img src="Banner1.jpg" alt=""></li>
+                <li><img src="Banner2.jpg" alt=""></li>          
+            </ul>
+        </section> 
+        <section class="services-holder">
+            <article class="service">
+                <img src="plan1.jpg" alt="">
+                <h3>Free Plan:</h3>
+                <p>One Day Free Trail</p>
+                <a href="#">read more</a>
+            </article>
+            <article class="service">
+                <img src="plan2.jpg" alt="">
+                <h3>womens (18 to 32):</h3>
+                <p>Menstural Plan/ $5 per months  </p>
+                <a href="#">read more</a>
+            </article>
+            <article class="service">
+                <img src="plan3.jpg" alt="">
+                <h3> Womens all age/$19 per months :</h3>
+                <p>Premimum plan - 1 month</p>
+                <a href="#">read more</a>
+            </article>
+            <article class="service">
+                <img src="plan4.jpg" alt="">
+                <h3>Advance Plan/ $15 per week :</h3>
+                <p>Sleep cycle Tracker and Menstural cycle Included</p>
+                <a href="#">read more</a>
+            </article>
+            <article class="service">
+                <img src="plan5.jpg" alt="">
+                <h3>Advance Plan/$39 per month :</h3>
+                <p>Sleep cycle Tracker and Menstural cycle Included for Entire month</p>
+                <a href="#">read more</a>
+            </article>
+            <article class="service">
+                <img src="plan7.jpg" alt="">
+                <h3>Advance Plan/$99 for three month:</h3>
+                <p>Sleep cycle Tracker and Menstural cycle Included for three months</p>
+                <a href="#">read more</a>
+            </article>
+        </section>
+
+          <section class="content-holder">
+            <main class="content">
+                <h1>WELL-NEST</h1>
+                <h2>About us</h2>
+                <p>We are small cap organisation working on the model to maintain physical and mental health of a women in order to provide a clean fitness environment working womens</p>
+            </main>
+            <aside class="sidebar">
+                <div class="widget">
+                    <h3>follow us</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/search/top?q=spotlight%20central">facebook</a></li>
+                        <li><a href="https://www.instagram.com/spot_light_central/">instagram</a></li>
+                        <li><a href="#">twitter</a></li>
+                        <li><a href="#">linkendin</a></li>
+                        <li><a href="#">github</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+        <section class="footer-widget-holder">
+            <div class="footer-widget">
+                <a href="#">
+                    <img src="logo4.png" alt="a cool company">
+                </a>
+                <h3>Email Address</h3>
+                <address>   
+                        Please reach out via: wellnest01@gmail.company
+                </address>
+            </div>
+            <div class="footer-widget">
+                <h4>sitemap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h4>sitemap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-widget">
+                <h4>sitemap</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">product</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <p><small>copyright &copy</small></p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('#adaptive').lightSlider({
+        adaptiveHeight:true,
+        item:1,
+        slideMargin:0,
+        loop:true
+    });
+});
+
+    </script>
+</body>
+</html>

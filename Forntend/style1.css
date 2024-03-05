@@ -1,0 +1,150 @@
+*{
+    font-family: 'Quicksand',sans-serif;
+}
+body{
+    margin:0px;
+    background-color:aliceblue;
+}
+.contanier{
+    width: 1000px;
+    height: auto;
+    margin:10px auto;
+    background-color: #fcd4e6;
+    border: 1px solid gainsboro;
+    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+}
+.main-header{
+    display:flex;
+    justify-content: space-between;
+    padding:25px;
+}
+.main-header .logo-holder > a img{
+    width: 250px;
+    height: auto;
+}
+.search-holder form > input[type="search"]{
+    border: 1px solid gainsboro;
+    padding: 10px;
+
+}
+.search-holder form > button[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 11px;
+    border: 0px;
+    margin-left: -5px;
+}
+.main-menu{
+    background-color:#4C1E4F;
+    color: white;
+}
+.main-menu > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+    display:inline-flex;
+    justify-content:start;
+}
+.main-menu >ul >li >a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display:inline-block;
+}
+.main-menu >ul >li >a:hover{
+  background-color: orange;
+}
+.drop {
+    padding: 10px;
+    margin: 0px;
+    list-style-type:none;
+    position:relative;
+    display:none;
+}
+.drop > li > a {
+    color:teal;
+    text-decoration: none;
+    padding: 15px;
+    display: inline-block;
+    width: 100%;
+}
+.drop > li> a:hover {
+    background-color: orange;
+}
+.main-menu > ul > li:hover .drop{
+    display:block;
+}
+.lspager{
+    margin-top: -25px !important;
+}
+.content-holder{
+    display: flex;
+    justify-content: space-between;
+    background-color:#C0E8F9;
+    border-bottom: 1px solid gainsboro;
+}
+.content-holder .content{
+    padding: 25px;
+    background-color: white;
+    width: 80%;
+}
+.content-holder .content h1~ h2{
+    font-size: 1em;
+    color: darkgrey;
+}
+.sidebar{
+    padding: 25px;
+    width: 20%;
+}
+.sidebar.widget > h3{
+    color:gainsboro;
+}
+.sidebar .widget ul,
+.footer-widget ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ .sidebar.widget ul > li > a,
+ .footer-widget ul >li > a {
+    color: white;
+    text-decoration: none;
+}
+.sidebar .widget ul > li > a:hover{
+    color: white;
+}
+.footer-widget-holder{
+    display: flex;
+    background-color: #736188;
+    color: white;
+    justify-content: space-around;
+}
+.footer-widget{
+    padding: 25px;
+    font-size: small;
+}
+.site-footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.site-footer p{
+    margin: 0px;
+}
+.services-holder{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.service{
+    padding: 20px;
+    border: 1px solid gainsboro;
+}
+.service a{
+    text-decoration: none;
+    color: teal;
+}
+.service img{
+    width: 100%;
+    height: auto;
+}
+
